@@ -1,0 +1,145 @@
+root {
+    --main-color: rgb(43, 43, 43);
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Start Coding >>>  */
+
+.header {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 13px 10px;
+    box-shadow: rgb(0 0 0 / 18%) 0px 5px 15px;
+    z-index: 9;
+    position: relative;
+}
+
+.header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 3px;
+    border-radius: 4px;
+    margin-left: 15px;
+}
+
+.header a.logo {
+    font-size: 28px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: rgb(43, 43, 43);
+}
+
+.main-nav {
+    float: right;
+    padding-right: 40px;
+}
+
+.header .main-nav a {
+    color: rgb(43, 43, 43);
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.header .main-nav a:hover {
+
+}
+
+.landing {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    min-height: 92vh;
+    display: flex;
+    background-image: url(../imgs/white-wallpaper.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h2.landing-logo {
+    color: var(--main-color);
+    margin-top: 130px;
+    font-size: 50px;
+    font-weight: 900;
+    position: absolute;
+    cursor: default;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.5s;
+}
+
+h2.landing-logo:hover {
+    color: rgb(61, 61, 61);
+}
+
+.landing p.landing-p {
+    display: flex;
+    font-weight: 500;
+    word-spacing: 2px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    margin-top: 190px;
+}
+
+/* Introduction, Second Page, After Landing  */
+
+.intro {
+    min-height: 92vh;
+    width: 100%;
+    box-shadow: rgb(0 0 0 / 28%) 0px 5px 90px;
+}
+
+.intro .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position: absolute;
+}
+
+.intro .intro-title {
+    color: var(--main-color);
+    font-size: 50px;
+    font-weight: 900;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.intro .stoic-mean {
+    color: var(--main-color);
+    font-weight: 450;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 0px;
+    padding: 26px 87px;
+    line-height: 1.5;
+}

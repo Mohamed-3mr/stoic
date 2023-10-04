@@ -1,0 +1,35 @@
+/* Small  */
+@media (min-width: 768px) {}
+
+@media (max-width: 776px) {
+    .header {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    /* Let The Nav-Menu Go under the logo for responsive style  */
+    .main-nav {
+        gap: 5px;
+        display: flex;
+        margin-top: 10px;
+        padding-left: 40px;
+    }
+
+    h2.landing-logo {
+    margin-top: 176px;
+    width: 82.9%;
+    }
+
+    .landing p.landing-p {
+        margin-top: 257px;
+    }
+
+    .intro .container {
+        position: relative;
+    }
+
+    .intro .stoic-mean {
+        padding: 0px 17px;
+    }
+}
